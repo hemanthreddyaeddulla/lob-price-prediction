@@ -1,0 +1,36 @@
+# Datasets (1.7 GB - not redistributable; download from competition platform)
+datasets/
+
+# Trained checkpoints (424 MB - full training logs / .pt weights)
+checkpoints/
+
+# Submission archive (redundant - contents already in solution/)
+submission.zip
+
+# Adhoc EDA scratch
+run_analysis.py
+run_analysis_part1.py
+target_reconstruction_analysis.py
+script_b64.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
